@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Tráfego Aéreo</title>
+  <meta name="description" content="Controle de Tráfego Aéreo.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Fotos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Conato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="assets/images/logo.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Fotos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Controle</b> de Tráfego Aéreo</h1>
+      <p>Você voa e nós te protegemos</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/atco-alexandre" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://wa.me/5592981794584" target="_blank">
+            <i class="menu__icon bi bi-whatsapp"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.youtube.com/@atco-alex" target="_blank">
+            <i class="menu__icon bi bi-youtube"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Mais Vídeos</span>
+          <i class="bi bi-camera-reels"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      <iframe src="https://www.youtube.com/embed/G1L4GUA8arY?si=3fE4XhB9f7vJq-o5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </main>
+  <section id="projetos" class="projects">
+    <h2>Fotos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="projects/7.jpg" alt="Divisão do Espaço Aéreo">
+        <div class="card__body">
+          <h3 class="card__title">Divisão do Espaço Aéreo</h3>
+          <p class="card__description">Visão Geral</p>
+          <ul class="card__list">
+            <li class="card__item"><strong>ATZ</strong> (<strong>Zona de Tráfego</strong>) - Espaço aéreo de dimensões definidas estabelecido em torno de um aeroporto para proteção do tráfego do aeródromo;</li>
+            <li class="card__item"><strong>CTA</strong> (<strong>Área de Controle Inferior</strong>) - espaço aéreo controlado no qual situam-se as aerovias. Geralmente ficam entre os níveis FL145 (aproximadamente 4.400 m de altitude) e FL245 (aproximadamente 7.450 m de altitude);</li>
+            <li class="card__item"><strong>UTA</strong> (<strong>Área Superior de Controle</strong>) - áreas controladas constituídas por
+              aerovias e áreas com grande densidade de tráfego aéreo.
+              </li>
+          </ul>
+          <a href="#projetos">
+            <button class="btn btn--primary">
+              <span>Mais Fotos</span>
+              <i class="bi bi-camera"></i>
+            </button>  
+          </a>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="projects/10.jpg" alt="Terminal Radar Approach CONtrol">
+        <div class="card__body">
+          <h3 class="card__title">TRACON - Terminal Radar Approach CONtrol</h3>
+          <p class="card__description">Fornece serviços de tráfego aéreo baseados em radar para aeronaves que se aproximam ou partem de um aeroporto;</p>
+          <ul class="card__list">
+            <li class="card__item">é o eixo que garante o fluxo seguro e ordenado do tráfego aéreo nas proximidades dos aeroportos;</li>
+            <li class="card__item">é equipado com m onitores de rada, equipamentos de comunicação e sistemas de computador que fornecem aos controladores as ferramentas necessárias para desempenhar suas funções com eficácia;</li>
+            <li class="card__item">os controladores devem ser capazes de processar rapidamente grande quantidade de informações, consci~encia espacial e permanecer calmos sob pressão.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="projects/4.jpg" alt="Sagitario">
+        <div class="card__body">
+          <h3 class="card__title">SAGITARIO</h3>
+          <p class="card__description"></p>
+          <ul class="card__list">
+            <li class="card__item">Sistema Avançado de Gerenciamento de Informações de Tráfego Aéreo e Relatório de Interesse Operacional;</li>
+            <li class="card__item">software nacional capaz de processar dados de diversas fontes de captação, como radares e satélites e consolidá-los em uma única apresentação visual para o controlador de voo;</li>
+            <li class="card__item">permite ao Controlador de Tráfego Aéreo uma maior segurança durante a execução de sua tarefa, e também uma ordenada e rápida circulação aérea em todos os espaços aéreos do Brasil.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="projects/3.jpg" alt="">
+      <div class="about__description">
+        <h4>Sobre o Controle de Tráfego Aéreo</h4>
+        <p>A invenção do avião revolucionou a matriz de transporte mundial, visto que essa modalidade proporcionou rapidez no deslocamento de passageiros e mercadorias.</p>
+        <p>Para garantir segurança e eficácia nessa forma de transporte não basta o estado de conservação das aeronaves, qualificação dos pilotos e estrutura dos aeroportos, sendo necessária, também, uma equipe para controlar e coordenar o tráfego aéreo. Sendo assim, pessoas extremamente capacitadas são responsáveis pelo controle do espaço aéreo, garantindo o fluxo seguro das aeronaves. Esses profissionais ficam encarregados pelo planejamento, gerenciamento e controle dos voos, avaliando as condições meteorológicas, a cartografia do espaço aéreo, rota, velocidade das aeronaves, altitude, fluxo de aviões, entre outros fatores que possam interferir na segurança dos voos.
+        </p>
+        <p>"As informações são passadas para os pilotos das aeronaves por meio de Controladores de Tráfego Aéreo que ficam em centrais espalhadas por todo o Brasil. Os dados devem ser transmitidos de forma clara e objetiva, seguindo um padrão preestabelecido. As normas e métodos utilizados para controle do tráfego aéreo são estabelecidos pela <strong>Organização de Aviação Civil Internacional</strong> (<strong>OACI</strong>).</p>
+        <p>fonte: <a href=https://brasilescola.uol.com.br/geografia/trafego-aereo.htm>Tráfego Aéreo</a></p>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>A formação de um Controlador de Tráfego Aéreo pode ser de duas formas:</h4>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Escola de Especialistas da Aeronáutica (Guaratinguetá/SP) - Concurso Público - o curso dura dois anos e é realizado em regime de internato.</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span> Instituto de Controle do Espaço Aéreo (São José dos Campos/SP) - Concurso Público - o curso dura, em média, 10 meses.</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Atuação</h3>
+          <span>Após a formação, um Controlador de Tráfego Aéreo militar pode atuar em diferentes setores e áreas, e pode ser necessário passar por estágios operacionais para se tornar apto para o serviço, podendo ser designado para:</span>
+          <li class="about__item">Torre de Controle;</li>
+            <li class="about__item">Controle de Aproximaçãos;</li>
+            <li class="about__item"> Centro de Controle de Área;</li>
+            <li class="about__item">Centro de Coordenação de Salvamento;</li>
+            <li class="about__item">Centro de Operações Militares;</li>
+            <li class="about__item">Centro de Gerenciamento da Navegação Aérea;</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Curso</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Durante o curso de formação o aluno estudará e adquirirá as seguintes habilidades:fundamentos de voo, aeronaves, inglês, meteorologia, regras de tráfego aéreo e fraseologia específica, dentre outras matérias.</span>
+            </button>
+            <div class="accordion__body">
+              <ul>
+                <li class="about__item">Fundamentos de Voo e Navegação Aérea;</li>
+                <li class="about__item">Identificação e Performance de Aeronaves;</li>
+                <li class="about__item">Inglês Geral;</li>
+                <li class="about__item">Meteorologia Aeronáutica;</li>
+                <li class="about__item">Regras de Tráfego Aéreo;</li>
+                <li class="about__item">Inglês Técnico para Aviação (Fraseologia);</li>
+                <li class="about__item">Princípios de Funcionamento de Radar;</li>
+                <li class="about__item">Técnicas de Comunicação Terra-Ar;</li>
+                <li class="about__item">Operação do Sistema SAGITARIO;</li>
+                <li class="about__item">Dentre outros.</li>
+              </ul>             
+            </div>
+            <p>fonte: <a href="https://www2.fab.mil.br/eear/index.php/2015-06-02-14-14-44?layout=edit&id=160">Escola de Especialistas de Aeronáutica</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <p>
+      © 2024. Portfólio desenvolvido para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      <a href="https://github.com/atco-alexandre" target="_blank">Alexandre Gonzaga</a>.
+    </p>
+  </section>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
